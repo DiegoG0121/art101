@@ -1,9 +1,59 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+/*.minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
-  }
+  }*/
+
+  body {
+    background-color: rgba(141, 109, 109, 0.627);
+}
+
+.lab3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+header .myname {
+    font-family: fantasy;
+}
+
+header .myPicture {
+    margin-right: 10px;
+    display: inline-table;
+    float: right;
+}
+
+header div.myPicture {
+    background-color: rgba(141, 109, 109, 0.627);
+    width: 255px;
+    height: 305px;
+    padding: 5px;
+}
+
+header .myPicture img {
+    width: 250px;
+    height: 300px;
+}
+
+header.personalP {
+    padding-right: 30px;
+}
+
+#lablinks {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
