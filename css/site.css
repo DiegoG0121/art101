@@ -7,7 +7,6 @@
 /* we can have rules apply to multiple elements at the same time with commas */
 body {
   background-color: rgba(141, 109, 109, 0.627);
-
 }
 
 .default {
@@ -77,3 +76,4 @@ main {
   padding-left: 10px;
   padding-bottom: 10px;
 }
+
