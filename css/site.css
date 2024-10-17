@@ -67,6 +67,8 @@ header.personalP {
   text-decoration-color: aliceblue;
   color: white;
   background-color: black;
+  border: 4px;
+  border-radius: 2px;
 }
 
 main {
