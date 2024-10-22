@@ -24,13 +24,13 @@ header {
   font-family: fantasy;
 }
 
-header .myPicture {
+.myPicture {
   margin-right: 10px;
   display: inline-table;
   float: right;
 }
 
-header div.myPicture {
+div.myPicture {
   background-color: rgba(141, 109, 109, 0.627);
   width: 255px;
   height: 305px;

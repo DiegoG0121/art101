@@ -19,3 +19,18 @@ function main() {
 
 // let's get this party started
 main();
+
+//declaring variable wiht stored information in it
+var make = "Mercedes-Benz";
+var model = "300SD";
+var color = "gray";
+var year = 1980;
+var ownIt = false;
+
+age = 2024 - year;
+
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + " years<br>");
+document.writeln("Age: " + age + " years<br>");
