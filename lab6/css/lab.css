@@ -18,6 +18,7 @@
   width: fit-content;
   height: fit-content;
   background-color: bisque;
+  background-size: cover;
   margin-right: 300px;
   border-radius: 10px;
 }
