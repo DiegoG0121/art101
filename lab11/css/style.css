@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headerLab11 {
+    background-color: aliceblue;
+    border: 2px solid black;
+    box-shadow: 0 0 20px rgb(223, 109, 109);
+}
+
+.headerLab11:hover {
+    box-shadow: 5px 5px 25px black;
+
+}
+
+div.info {
+    margin-top: 10px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    box-shadow: 0 0 20px rgb(223, 109, 109);
+    text-indent: 5px;
+}
+
+section div.info h2 {
+    text-decoration: underline;
+}
+
+section div.info p {
+    text-indent: 15px;
+}
+
+section div.info:hover {
+    box-shadow: 5px 5px 25px black;
+    font-family: cursive;
+}
+
+div.info p.sorted {
+    margin-top: 50px;
+}
+
+

@@ -4,7 +4,6 @@ function generateRandomText() {
     const min = 3;
     const max = 100;
     const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
-    
     const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
     
     return text.slice(randStart, randStart + randLen);
