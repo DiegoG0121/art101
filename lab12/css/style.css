@@ -1,0 +1,78 @@
+:root {
+    --clr-light: aliceblue;
+    --clr-dark-o: rgb(0, 0, 0, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lab12-H {
+    background-color: var(--clr-light);
+    padding: 10px 5px;
+}
+
+div > div > dialog {
+    max-width: 400px;
+    margin: auto;
+    border: 4px solid black;
+    box-shadow: 0 0 20px white;
+    border-radius: 10px;
+}
+
+dialog > h1 , p , button {
+    margin: 10px;
+}
+
+div > div > dialog::backdrop {
+    background-color: var(--clr-dark-o);
+}
+
+.pop-dialog > button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px black;
+}
+
+
+.pop-dialog > dialog > button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+ .container {
+    margin: 10px;
+    background-color: var(--clr-light);
+    border: 2px solid var(--clr-dark-o);
+    border-radius: 10px;
+    padding: 10px;
+ }
+
+ .container .myHouse {
+    font-family: inherit;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px red;
+    border-radius: 6px;
+    box-sizing: border-box;
+ }
+
+ 
+
+ 
+
+
