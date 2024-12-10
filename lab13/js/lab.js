@@ -26,6 +26,7 @@ function fizzBuzzBoom () {
             oneLongString += "<br>" + num + "." + "<br>";
         }
     }
+    console.log(oneLongString);
     return oneLongString;
 }
 

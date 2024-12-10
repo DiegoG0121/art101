@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.labHeader {
+    background-color: aliceblue;
+    padding: 15px 10px;
+    font-size: 2.5rem;
+}
+
+.contain  {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contain p {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.contain img {
+    margin-top: 15px;
+}

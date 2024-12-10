@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.676);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.582);
+
+    transition: all 0.5s;
+}
+
+header:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.626);
+    background-color: rgba(255, 255, 255);
+}
+
+#container {
+    margin: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.676);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.582);
+
+    transition: all 0.5s;
+}
+
+#container:hover {
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.626);
+}
+
+section > div {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: inherit;
+}
+
+section > div:not(:first-child) {
+    margin-top: 10px;
+}
+
+section > div:hover {
+    background-color: aliceblue;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.856);
+}
+
+section > div p {
+    margin: 15px;
+    background-color: inherit;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#new-comic-btn {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+
+    transition: all 0.9s;
+}
+
+#new-comic-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.45);
+}
+
+section > div img {
+    width: 100%;
+    height: auto;
+}
